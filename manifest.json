@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2.0,
+	"id": "telemetry-query-preview",
+	"name": "Telemetry query preview",
+	"version": "1.0.0",
+	"namespace": "TelemetryQueryPreview",
+	"author": "Telemetry query preview module contributors",
+	"url": "https://github.com/<your-account>/zabbix-module-telemetry-query-preview",
+	"description": "Shows which time range a telemetry query item collects on each run: update interval, time shift, lookback limit and granularity buckets, with clock times.",
+	"assets": {
+		"css": ["telemetry-preview.css"],
+		"js": ["telemetry-preview.js"]
+	}
+}
